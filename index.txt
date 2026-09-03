@@ -1,0 +1,33 @@
+Analytical Questions:
+Q1. How many cities data we have in our dataset?
+Hyderabad    2276
+Chennai      2047
+Delhi        1989
+Banglore     1708
+Mumbai       1302
+Kolkata        68
+
+Q2. Average Price of House?
+1 cr
+
+Q3. Max price at which any house is sold:
+40cr
+
+Q4. Min price at which any house is sold:
+20 Lacks
+
+Q5. Average Price of house of different cities:
+Mumbai       1.586548e+07
+Delhi        1.027558e+07
+Banglore     1.021917e+07
+Hyderabad    1.011448e+07
+Chennai      8.379085e+06
+Kolkata      6.621029e+06
+
+
+
+
+Saving a ML model:
+Use joblib library
+Command to install:
+python -m pip install joblib
