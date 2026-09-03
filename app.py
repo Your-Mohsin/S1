@@ -45,7 +45,7 @@ with col1:
 
 with col2:
     # Taking bedrooms input
-    bedrooms = st.number_input("Enter Number of Bed Rooms:")
+    bedrooms = st.number_input("Enter Number of Bed Rooms:", min_value=1, step=1, format="%d")
     if bedrooms:
         data["No. of Bedrooms"] = bedrooms
 
