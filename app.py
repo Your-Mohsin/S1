@@ -23,7 +23,7 @@ data = {"Location": "JP Nagar Phase 1", "City": "Banglore"}
 col1, col2 = st.columns(2)
 with col1:
     # Taking area input
-    area = st.number_input("Enter Area:")
+    area = st.number_input("Enter Area:", min_value=1, step=1, format="%d")
     if area:
         data["Area"] = area
 
